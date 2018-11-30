@@ -1,7 +1,7 @@
 <?php
 /**
  *  Plugin Name:        Xeno
- *  Plugin URI:         https://xenoapp.com/wordpress
+ *  Plugin URI:         https://xenoapp.com
  *  Description:        Your independent customer chat tool. Make your contacts feel special with the power of live response.
  *  Version:            1.0
  *  Author:             Xeno Team
