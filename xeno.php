@@ -3,7 +3,7 @@
  *  Plugin Name:        Xeno
  *  Plugin URI:         https://xenoapp.com
  *  Description:        Your independent customer chat tool. Make your contacts feel special with the power of live response.
- *  Version:            1.0
+ *  Version:            2.0
  *  Author:             Xeno Team
  *  Author URI:         https://xenoapp.com/team
  *  License:            GPL2
@@ -39,8 +39,8 @@ class Xeno {
 
         if (isset($this->options['api_key'])) {
             $this->options['api_key'] = esc_attr($this->options['api_key']);
-            wp_enqueue_script('chat_script', 'https://cdn.xeno.app/chat.js');
             wp_enqueue_script('chat_script_init', plugins_url('/' . self::plugin_folder_name . '/xeno_init_script.php') . '?api_key=' . $this->options['api_key']);
+            wp_enqueue_script('chat_script', 'https://cdn.xeno.app/chat_loader.js');
         }
     }
 
