@@ -58,17 +58,17 @@ class Xeno {
     function register_settings() {
         register_setting('xeno', 'xeno_options', array($this, 'xeno_sanitize'));
         add_settings_section('xeno_settings_section', 'Xeno Settings', array($this, 'xeno_settings_callback'), 'xeno-settings');
-        add_settings_field('api_key', 'Widget Key', array($this, 'widget_id_callback'), 'xeno-settings', 'xeno_settings_section');
+        add_settings_field('api_key', 'Public brand key', array($this, 'widget_id_callback'), 'xeno-settings', 'xeno_settings_section');
     }
     function xeno_settings_callback() {
         ?>
-        <b>Your Widget ID is available on your widget page on <a target="_blank" href="https://xeno.app">xeno.app</a></b>
+        <b>Your public brand key is available from your deploy page on <a target="_blank" href="https://xeno.app">xeno.app</a></b>
         <?php
     }
     function widget_id_callback() {
         ?>
         <input type="input" id="xeno_options[api_key]" name="xeno_options[api_key]" value="<?php echo ($this->options['api_key']); ?>" >
-        <label for="xeno_options[api_key]"><?php _e('Paste your Widget Key here', 'xeno'); ?></label>
+        <label for="xeno_options[api_key]"><?php _e('Paste your public brand key here', 'xeno'); ?></label>
         <?php
     }
     function xeno_settings() {
