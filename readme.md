@@ -1,12 +1,14 @@
-# Xeno
-* Contributors: Xeno Team
-* Donate link: https://xenoapp.com
-* Tags: xeno, chat, livechat, wordpress, support
-* Requires at least: 3.0.1
-* Tested up to: 4.9.5
-* Stable tag: master
-* License: GPLv2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+=== Xeno ===
+Contributors: xenoapp
+Donate link: https://xenoapp.com
+Tags: xeno, chat, livechat, wordpress, support
+Requires at least: 3.0.1
+Tested up to: 5.2
+Stable tag: 2.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Your independent customer chat tool. Make your contacts feel special with the power of live response.
 
 == Description ==
 
@@ -33,17 +35,25 @@ Xeno, making customers feel special.
 
 == Changelog ==
 
+= 2.0 =
+* Upgrade of the code snippet.
+
 = 1.0 =
 * Plugin.
 
-== Frequently Asked Questions ==
-
-[Xeno Help-Center](https://xenoapp.help/)
-
 == Upgrade Notice ==
 
-There is no upgrade notice to 1.0 version
+= 2.0 =
+The benefits of the new code snippet:
+* Increased stability (in many ways)
+* Better compatibility with all websites (no more JS or CSS conflict)
+* Better compatibility with different browsers (Internet Explorer 9+)
+* Takes less bandwidth upon loading
 
 == Screenshots ==
 
 There is no screenshots for now.
+
+== Frequently Asked Questions ==
+
+[Xeno Help-Center](https://xenoapp.help/)
